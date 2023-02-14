@@ -1,0 +1,72 @@
+.container5{
+    background-color: #f2f2f2;
+    display: flex;
+    justify-content: space-around;
+    align-items: center;
+    flex-direction: column;
+    width: 100vw;
+    height: calc(100vh - 100px);
+    margin-top: 100px;
+}
+
+.price_products{
+    display: grid;
+    grid-template-columns: repeat(5, 1fr);
+}
+
+.product_price_box{
+    display: flex;
+    height: 163px;
+    flex-direction: column;
+    align-items: center;
+    margin: 20px;
+    font-size: 20px;
+}
+.product_image_cover_box{
+    background-color: #ffffff;
+    box-shadow: 3px 3px 3px #e6e6e6;
+    border-radius: 30px;
+    width:181px;
+    height: 128px;
+    display:flex;
+    justify-content: center;
+    align-items: center;
+
+}
+
+
+.product_price_image{
+    width: 125px;
+    height: 125px;
+}
+
+.warn_price_text{
+    font-size: 24px;
+    padding: 20px;
+    color: #777777
+}
+.price_info_dots{
+    margin: auto;
+    width: 89px;
+    display: flex;
+}
+.active_dot{
+    margin: 0 2px;
+    background-color: #000000;
+    width:10px;
+    height:10px;
+    border-radius: 10px;
+}
+.dot{
+    margin: 0 1px;
+    background-color: #ffffff;
+    width:8px;
+    height:8px;
+    border-radius: 10px;
+    border: 1px solid black;
+}
+
+p{
+    margin: 5px;
+}
+
