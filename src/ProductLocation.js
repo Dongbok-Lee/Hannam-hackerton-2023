@@ -1,5 +1,6 @@
 import React from 'react'
 import './ProductLocation.css'
+import { Link } from 'react-router-dom';
 
 function ProductLocation() {
   return (
@@ -12,12 +13,13 @@ function ProductLocation() {
                 <p>키위</p>
             </div>
 
+            <Link  to="/searchResult" style={{ textDecoration: "none" , color: '#000' }}>
             <div className= "product_price_box">
                 <div className="product_image_cover_box">
                     <img className="product_price_image" src="./img/수박.png"/>
                 </div>
                 <p>수박</p>
-            </div>
+            </div></Link>
 
             <div className= "product_price_box">
                 <div className="product_image_cover_box">

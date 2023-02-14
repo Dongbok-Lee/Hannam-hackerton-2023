@@ -5,6 +5,7 @@ import PriceInfo from './PriceInfo';
 import PriceSelect from './PriceSelect';
 import ProductLocationSelect from './ProductLocationSelect';
 import ProductLocation from './ProductLocation';
+import SearchResult from './SearchResult';
 
 function App() {
   return (
@@ -16,6 +17,7 @@ function App() {
         <Route path="/priceSelect" element={<PriceSelect/>}/>
         <Route path="/productLocationSelect" element={<ProductLocationSelect/>}/>
         <Route path="/productLocation" element={<ProductLocation/>}/>
+        <Route path="/searchResult" element={<SearchResult/>}/>
       </Routes>
     </>
   );

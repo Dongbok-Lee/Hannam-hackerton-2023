@@ -9,7 +9,7 @@ function ProductLocationSelect() {
             <img className = "fishImage" src = "./img/fish.png"/>
             <p>수산</p>
         </div>
-        <Link to = "/priceInfo" style={{ textDecoration: "none" , color: '#000' }}>
+        <Link to = "/productLocation" style={{ textDecoration: "none" , color: '#000' }}>
         <div className = "selectType">
             <img className = "fishImage" src = "./img/fruit.png"/>
             <p>과일</p>

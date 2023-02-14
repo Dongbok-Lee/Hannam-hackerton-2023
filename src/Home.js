@@ -1,6 +1,5 @@
 import React from 'react'
 import './Home.css';
-import { Link } from 'react-router-dom';
 import AddIcon from '@mui/icons-material/Add';
 
 function Home() {
